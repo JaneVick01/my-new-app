@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/anieuwenhuize/express.tutorial/issues"
   },
-  "homepage": "https://github.com/anieuwenhuize/express.tutorial#readme"
+  "homepage": "https://github.com/anieuwenhuize/express.tutorial#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }

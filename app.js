@@ -6,7 +6,7 @@ var rendered = 'not filled yet';
 
 
 
-art.font('brandweer', 'doom')
+art.font('brandweer', 'Doom')
        .then((rendered)=>{
            //rendered is the ascii
            app.get('/', (req, res) => {

@@ -1,11 +1,23 @@
 const express = require('express')
+const art = require('ascii-art')
 const app = express()
 const port = 3000
+var rendered = 'not filled yet';
 
-app.get('/', (req, res) => {
-    res.send('Howdy from app.js!')
-})
+
+
+art.font('brandweer', 'doom')
+       .then((rendered)=>{
+           //rendered is the ascii
+           app.get('/', (req, res) => {
+            res.send(rendered)
+        })
+       }).catch((err)=>{
+           //err is an error
+       });
+
+
 
 app.listen(port, () => {
-    console.log('Yes, we\'re there, listening on port ${port}.')
+    console.log('fhj3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333.')
 })

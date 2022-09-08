@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/anieuwenhuize/express.tutorial#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "ascii-art": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
   }
 }
